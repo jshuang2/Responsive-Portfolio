@@ -1,0 +1,134 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.header-box {
+    background-color: #ffffff;
+    border-bottom: #cccccc;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    height: 68px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+#myName {
+    background-color: #4aaaa5;
+    padding: 20px;
+    float: left;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    font-weight: bold;
+    position: fixed;
+    margin-left: 25%;
+}
+
+#nav {
+    float: right;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    position: fixed;
+    right: 25%;
+}
+
+#about {
+    border-right: #dddddd;
+    border-right-style: solid;
+    border-right-width: .5px;
+    padding-right: 15px;
+}
+
+#portfolio {
+    border-right: #dddddd;
+    border-right-style: solid;
+    border-right-width: .5px;
+    padding-right: 15px;
+    margin-left: 12.5px;
+}
+
+#contact {
+    margin-left: 12.5px;
+}
+
+.clearfix {
+    margin-top: 100px;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color:#4aaaa5;
+}
+
+a:visited {
+    color: purple;
+}
+
+.about-me {
+    color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#profile-pic {
+    float:left;
+    width: 20%;
+    height: 20%;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+p {
+    margin-top: 26.5px; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    line-height: 2; 
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    background-color: #666666;  
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-top: #4aaaa5;
+    border-top-width: 8px;
+    border-top-style: solid;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-text {
+    color:white;
+}
+
+.main-content-box {
+    background-color:#ffffff;
+    border: #dddddd;
+    border-width: 1px;
+    border-style: solid;
+}
+
+hr {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#page-background {
+    background-color: #f0f0f0;
+}
