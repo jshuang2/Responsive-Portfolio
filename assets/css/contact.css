@@ -32,6 +32,8 @@
     font-weight: bold;
     position: fixed;
     margin-left: 25%;
+    top: 0;
+    z-index: 1;
 }
 
 #nav {
@@ -41,6 +43,7 @@
     font-size: 16px;
     position: fixed;
     right: 25%;
+    top: 0;
 }
 
 #about {
@@ -112,4 +115,25 @@ hr {
     width: 6%;
     color: white;
     margin-left: 20px;
+}
+
+
+@media (max-width: 980px) {
+
+    .container {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        width: 90%;
+    }
 }

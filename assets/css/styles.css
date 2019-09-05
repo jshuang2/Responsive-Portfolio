@@ -132,3 +132,35 @@ hr {
 #page-background {
     background-color: #f0f0f0;
 }
+
+
+@media (max-width: 980px) {
+
+    .container {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        width: 90%;
+    }
+
+    #myName {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .header-box {
+        width: 100%;
+        
+        
+    }
+}
